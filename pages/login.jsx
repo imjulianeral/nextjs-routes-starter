@@ -1,17 +1,15 @@
 import React from 'react'
-import Head from 'next/head'
+
 import PublicRoute from '../components/PublicRoute'
+import Layout from '../components/Layout'
 
 import styles from '../styles/Home.module.css'
 
 function Login() {
   return (
-    <>
-      <Head>
-        <title>Login</title>
-      </Head>
+    <Layout>
       <h1 className={styles.title}>Login</h1>
-    </>
+    </Layout>
   )
 }
 
